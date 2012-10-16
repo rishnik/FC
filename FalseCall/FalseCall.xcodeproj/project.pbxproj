@@ -23,6 +23,11 @@
 		DD387128162D40710095AC0A /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD387126162D40710095AC0A /* AddViewController.m */; };
 		DD387129162D40710095AC0A /* AddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD387127162D40710095AC0A /* AddViewController.xib */; };
 		DD387135162D77910095AC0A /* Storage.m in Sources */ = {isa = PBXBuildFile; fileRef = DD387134162D77910095AC0A /* Storage.m */; };
+		E3EB2B9B162DCE0500F8C6D8 /* old_phone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E3EB2B98162DCE0500F8C6D8 /* old_phone.mp3 */; };
+		E3EB2B9C162DCE0500F8C6D8 /* xylophone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E3EB2B99162DCE0500F8C6D8 /* xylophone.mp3 */; };
+		E3EB2B9D162DCE0500F8C6D8 /* marimba.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E3EB2B9A162DCE0500F8C6D8 /* marimba.mp3 */; };
+		E3EB2B9F162DCE1500F8C6D8 /* ios6-call.png in Resources */ = {isa = PBXBuildFile; fileRef = E3EB2B9E162DCE1500F8C6D8 /* ios6-call.png */; };
+		E3EB2BA1162DCF1E00F8C6D8 /* ios5-call.png in Resources */ = {isa = PBXBuildFile; fileRef = E3EB2BA0162DCF1E00F8C6D8 /* ios5-call.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +55,11 @@
 		DD387127162D40710095AC0A /* AddViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddViewController.xib; sourceTree = "<group>"; };
 		DD387133162D77910095AC0A /* Storage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Storage.h; sourceTree = "<group>"; };
 		DD387134162D77910095AC0A /* Storage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Storage.m; sourceTree = "<group>"; };
+		E3EB2B98162DCE0500F8C6D8 /* old_phone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = old_phone.mp3; path = ringtones/old_phone.mp3; sourceTree = SOURCE_ROOT; };
+		E3EB2B99162DCE0500F8C6D8 /* xylophone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = xylophone.mp3; path = ringtones/xylophone.mp3; sourceTree = SOURCE_ROOT; };
+		E3EB2B9A162DCE0500F8C6D8 /* marimba.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = marimba.mp3; path = ringtones/marimba.mp3; sourceTree = SOURCE_ROOT; };
+		E3EB2B9E162DCE1500F8C6D8 /* ios6-call.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ios6-call.png"; path = "images/ios6-call.png"; sourceTree = SOURCE_ROOT; };
+		E3EB2BA0162DCF1E00F8C6D8 /* ios5-call.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ios5-call.png"; path = "images/ios5-call.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +127,8 @@
 		DD387104162D31F00095AC0A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E3EB2B97162DCDF900F8C6D8 /* ringtones */,
+				E3EB2B95162DCDF200F8C6D8 /* images */,
 				DD387105162D31F00095AC0A /* FalseCall-Info.plist */,
 				DD387106162D31F00095AC0A /* InfoPlist.strings */,
 				DD387109162D31F00095AC0A /* main.m */,
@@ -126,6 +138,25 @@
 				DD387113162D31F00095AC0A /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E3EB2B95162DCDF200F8C6D8 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				E3EB2BA0162DCF1E00F8C6D8 /* ios5-call.png */,
+				E3EB2B9E162DCE1500F8C6D8 /* ios6-call.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		E3EB2B97162DCDF900F8C6D8 /* ringtones */ = {
+			isa = PBXGroup;
+			children = (
+				E3EB2B98162DCE0500F8C6D8 /* old_phone.mp3 */,
+				E3EB2B99162DCE0500F8C6D8 /* xylophone.mp3 */,
+				E3EB2B9A162DCE0500F8C6D8 /* marimba.mp3 */,
+			);
+			name = ringtones;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +218,11 @@
 				DD38711A162D31F00095AC0A /* FalseCallViewController.xib in Resources */,
 				DD387124162D3CDC0095AC0A /* SettingsViewController.xib in Resources */,
 				DD387129162D40710095AC0A /* AddViewController.xib in Resources */,
+				E3EB2B9B162DCE0500F8C6D8 /* old_phone.mp3 in Resources */,
+				E3EB2B9C162DCE0500F8C6D8 /* xylophone.mp3 in Resources */,
+				E3EB2B9D162DCE0500F8C6D8 /* marimba.mp3 in Resources */,
+				E3EB2B9F162DCE1500F8C6D8 /* ios6-call.png in Resources */,
+				E3EB2BA1162DCF1E00F8C6D8 /* ios5-call.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +352,7 @@
 				DD38711F162D31F00095AC0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
